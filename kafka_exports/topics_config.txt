@@ -1,0 +1,590 @@
+Dynamic configs for topic IOTREPORTDATAVALID are:
+  cleanup.policy=delete sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=delete, DEFAULT_CONFIG:log.cleanup.policy=delete}
+  retention.ms=604800000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.ms=604800000}
+Dynamic configs for topic IOTREPORTDATAVALIDTOPIC are:
+  cleanup.policy=delete sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=delete, DEFAULT_CONFIG:log.cleanup.policy=delete}
+  retention.ms=604800000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.ms=604800000}
+Dynamic configs for topic IotReportData are:
+  cleanup.policy=delete sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=delete, DEFAULT_CONFIG:log.cleanup.policy=delete}
+  compression.type=producer sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:compression.type=producer, DEFAULT_CONFIG:compression.type=producer}
+  delete.retention.ms=86400000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:delete.retention.ms=86400000, DEFAULT_CONFIG:log.cleaner.delete.retention.ms=86400000}
+  file.delete.delay.ms=60000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:file.delete.delay.ms=60000, DEFAULT_CONFIG:log.segment.delete.delay.ms=60000}
+  flush.messages=9223372036854775807 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:flush.messages=9223372036854775807, DEFAULT_CONFIG:log.flush.interval.messages=9223372036854775807}
+  flush.ms=9223372036854775807 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:flush.ms=9223372036854775807}
+  follower.replication.throttled.replicas= sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:follower.replication.throttled.replicas=}
+  index.interval.bytes=4096 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:index.interval.bytes=4096, DEFAULT_CONFIG:log.index.interval.bytes=4096}
+  leader.replication.throttled.replicas= sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:leader.replication.throttled.replicas=}
+  local.retention.bytes=-2 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:local.retention.bytes=-2, DEFAULT_CONFIG:log.local.retention.bytes=-2}
+  local.retention.ms=-2 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:local.retention.ms=-2, DEFAULT_CONFIG:log.local.retention.ms=-2}
+  max.compaction.lag.ms=9223372036854775807 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:max.compaction.lag.ms=9223372036854775807, DEFAULT_CONFIG:log.cleaner.max.compaction.lag.ms=9223372036854775807}
+  max.message.bytes=1048588 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:max.message.bytes=1048588, DEFAULT_CONFIG:message.max.bytes=1048588}
+  message.downconversion.enable=true sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.downconversion.enable=true, DEFAULT_CONFIG:log.message.downconversion.enable=true}
+  message.format.version=3.0-IV1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.format.version=3.0-IV1, DEFAULT_CONFIG:log.message.format.version=3.0-IV1}
+  message.timestamp.after.max.ms=9223372036854775807 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.after.max.ms=9223372036854775807, DEFAULT_CONFIG:log.message.timestamp.after.max.ms=9223372036854775807}
+  message.timestamp.before.max.ms=9223372036854775807 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.before.max.ms=9223372036854775807, DEFAULT_CONFIG:log.message.timestamp.before.max.ms=9223372036854775807}
+  message.timestamp.difference.max.ms=9223372036854775807 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.difference.max.ms=9223372036854775807, DEFAULT_CONFIG:log.message.timestamp.difference.max.ms=9223372036854775807}
+  message.timestamp.type=CreateTime sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.type=CreateTime, DEFAULT_CONFIG:log.message.timestamp.type=CreateTime}
+  min.cleanable.dirty.ratio=0.5 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:min.cleanable.dirty.ratio=0.5, DEFAULT_CONFIG:log.cleaner.min.cleanable.ratio=0.5}
+  min.compaction.lag.ms=0 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:min.compaction.lag.ms=0, DEFAULT_CONFIG:log.cleaner.min.compaction.lag.ms=0}
+  min.insync.replicas=1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:min.insync.replicas=1, DEFAULT_CONFIG:min.insync.replicas=1}
+  preallocate=false sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:preallocate=false, DEFAULT_CONFIG:log.preallocate=false}
+  remote.storage.enable=false sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:remote.storage.enable=false}
+  retention.bytes=-1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.bytes=-1, DEFAULT_CONFIG:log.retention.bytes=-1}
+  retention.ms=604800000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.ms=604800000}
+  segment.bytes=1073741824 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:segment.bytes=1073741824, DEFAULT_CONFIG:log.segment.bytes=1073741824}
+  segment.index.bytes=10485760 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:segment.index.bytes=10485760, DEFAULT_CONFIG:log.index.size.max.bytes=10485760}
+  segment.jitter.ms=0 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:segment.jitter.ms=0}
+  segment.ms=604800000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:segment.ms=604800000}
+  unclean.leader.election.enable=false sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:unclean.leader.election.enable=false, DEFAULT_CONFIG:unclean.leader.election.enable=false}
+Dynamic configs for topic Location are:
+  cleanup.policy=delete sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=delete, DEFAULT_CONFIG:log.cleanup.policy=delete}
+  compression.type=producer sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:compression.type=producer, DEFAULT_CONFIG:compression.type=producer}
+  delete.retention.ms=86400000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:delete.retention.ms=86400000, DEFAULT_CONFIG:log.cleaner.delete.retention.ms=86400000}
+  file.delete.delay.ms=60000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:file.delete.delay.ms=60000, DEFAULT_CONFIG:log.segment.delete.delay.ms=60000}
+  flush.messages=9223372036854775807 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:flush.messages=9223372036854775807, DEFAULT_CONFIG:log.flush.interval.messages=9223372036854775807}
+  flush.ms=9223372036854775807 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:flush.ms=9223372036854775807}
+  follower.replication.throttled.replicas= sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:follower.replication.throttled.replicas=}
+  index.interval.bytes=4096 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:index.interval.bytes=4096, DEFAULT_CONFIG:log.index.interval.bytes=4096}
+  leader.replication.throttled.replicas= sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:leader.replication.throttled.replicas=}
+  local.retention.bytes=-2 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:local.retention.bytes=-2, DEFAULT_CONFIG:log.local.retention.bytes=-2}
+  local.retention.ms=-2 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:local.retention.ms=-2, DEFAULT_CONFIG:log.local.retention.ms=-2}
+  max.compaction.lag.ms=9223372036854775807 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:max.compaction.lag.ms=9223372036854775807, DEFAULT_CONFIG:log.cleaner.max.compaction.lag.ms=9223372036854775807}
+  max.message.bytes=1048588 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:max.message.bytes=1048588, DEFAULT_CONFIG:message.max.bytes=1048588}
+  message.downconversion.enable=true sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.downconversion.enable=true, DEFAULT_CONFIG:log.message.downconversion.enable=true}
+  message.format.version=3.0-IV1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.format.version=3.0-IV1, DEFAULT_CONFIG:log.message.format.version=3.0-IV1}
+  message.timestamp.after.max.ms=9223372036854775807 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.after.max.ms=9223372036854775807, DEFAULT_CONFIG:log.message.timestamp.after.max.ms=9223372036854775807}
+  message.timestamp.before.max.ms=9223372036854775807 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.before.max.ms=9223372036854775807, DEFAULT_CONFIG:log.message.timestamp.before.max.ms=9223372036854775807}
+  message.timestamp.difference.max.ms=9223372036854775807 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.difference.max.ms=9223372036854775807, DEFAULT_CONFIG:log.message.timestamp.difference.max.ms=9223372036854775807}
+  message.timestamp.type=CreateTime sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.type=CreateTime, DEFAULT_CONFIG:log.message.timestamp.type=CreateTime}
+  min.cleanable.dirty.ratio=0.5 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:min.cleanable.dirty.ratio=0.5, DEFAULT_CONFIG:log.cleaner.min.cleanable.ratio=0.5}
+  min.compaction.lag.ms=0 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:min.compaction.lag.ms=0, DEFAULT_CONFIG:log.cleaner.min.compaction.lag.ms=0}
+  min.insync.replicas=1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:min.insync.replicas=1, DEFAULT_CONFIG:min.insync.replicas=1}
+  preallocate=false sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:preallocate=false, DEFAULT_CONFIG:log.preallocate=false}
+  remote.storage.enable=false sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:remote.storage.enable=false}
+  retention.bytes=-1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.bytes=-1, DEFAULT_CONFIG:log.retention.bytes=-1}
+  retention.ms=604800000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.ms=604800000}
+  segment.bytes=1073741824 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:segment.bytes=1073741824, DEFAULT_CONFIG:log.segment.bytes=1073741824}
+  segment.index.bytes=10485760 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:segment.index.bytes=10485760, DEFAULT_CONFIG:log.index.size.max.bytes=10485760}
+  segment.jitter.ms=0 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:segment.jitter.ms=0}
+  segment.ms=604800000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:segment.ms=604800000}
+  unclean.leader.election.enable=false sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:unclean.leader.election.enable=false, DEFAULT_CONFIG:unclean.leader.election.enable=false}
+Dynamic configs for topic LocationTopic are:
+  cleanup.policy=delete sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=delete, DEFAULT_CONFIG:log.cleanup.policy=delete}
+  retention.ms=604800000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.ms=604800000}
+Dynamic configs for topic SPEEDABOVEMAX are:
+  cleanup.policy=delete sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=delete, DEFAULT_CONFIG:log.cleanup.policy=delete}
+  retention.ms=604800000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.ms=604800000}
+Dynamic configs for topic SPEEDBELOWOREQUALMAX are:
+  cleanup.policy=delete sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=delete, DEFAULT_CONFIG:log.cleanup.policy=delete}
+  retention.ms=604800000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.ms=604800000}
+Dynamic configs for topic SPEEDREPORTJOIN are:
+  cleanup.policy=delete sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=delete, DEFAULT_CONFIG:log.cleanup.policy=delete}
+  retention.ms=604800000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.ms=604800000}
+Dynamic configs for topic Speed are:
+  cleanup.policy=delete sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=delete, DEFAULT_CONFIG:log.cleanup.policy=delete}
+  compression.type=producer sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:compression.type=producer, DEFAULT_CONFIG:compression.type=producer}
+  delete.retention.ms=86400000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:delete.retention.ms=86400000, DEFAULT_CONFIG:log.cleaner.delete.retention.ms=86400000}
+  file.delete.delay.ms=60000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:file.delete.delay.ms=60000, DEFAULT_CONFIG:log.segment.delete.delay.ms=60000}
+  flush.messages=9223372036854775807 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:flush.messages=9223372036854775807, DEFAULT_CONFIG:log.flush.interval.messages=9223372036854775807}
+  flush.ms=9223372036854775807 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:flush.ms=9223372036854775807}
+  follower.replication.throttled.replicas= sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:follower.replication.throttled.replicas=}
+  index.interval.bytes=4096 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:index.interval.bytes=4096, DEFAULT_CONFIG:log.index.interval.bytes=4096}
+  leader.replication.throttled.replicas= sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:leader.replication.throttled.replicas=}
+  local.retention.bytes=-2 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:local.retention.bytes=-2, DEFAULT_CONFIG:log.local.retention.bytes=-2}
+  local.retention.ms=-2 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:local.retention.ms=-2, DEFAULT_CONFIG:log.local.retention.ms=-2}
+  max.compaction.lag.ms=9223372036854775807 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:max.compaction.lag.ms=9223372036854775807, DEFAULT_CONFIG:log.cleaner.max.compaction.lag.ms=9223372036854775807}
+  max.message.bytes=1048588 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:max.message.bytes=1048588, DEFAULT_CONFIG:message.max.bytes=1048588}
+  message.downconversion.enable=true sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.downconversion.enable=true, DEFAULT_CONFIG:log.message.downconversion.enable=true}
+  message.format.version=3.0-IV1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.format.version=3.0-IV1, DEFAULT_CONFIG:log.message.format.version=3.0-IV1}
+  message.timestamp.after.max.ms=9223372036854775807 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.after.max.ms=9223372036854775807, DEFAULT_CONFIG:log.message.timestamp.after.max.ms=9223372036854775807}
+  message.timestamp.before.max.ms=9223372036854775807 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.before.max.ms=9223372036854775807, DEFAULT_CONFIG:log.message.timestamp.before.max.ms=9223372036854775807}
+  message.timestamp.difference.max.ms=9223372036854775807 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.difference.max.ms=9223372036854775807, DEFAULT_CONFIG:log.message.timestamp.difference.max.ms=9223372036854775807}
+  message.timestamp.type=CreateTime sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.type=CreateTime, DEFAULT_CONFIG:log.message.timestamp.type=CreateTime}
+  min.cleanable.dirty.ratio=0.5 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:min.cleanable.dirty.ratio=0.5, DEFAULT_CONFIG:log.cleaner.min.cleanable.ratio=0.5}
+  min.compaction.lag.ms=0 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:min.compaction.lag.ms=0, DEFAULT_CONFIG:log.cleaner.min.compaction.lag.ms=0}
+  min.insync.replicas=1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:min.insync.replicas=1, DEFAULT_CONFIG:min.insync.replicas=1}
+  preallocate=false sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:preallocate=false, DEFAULT_CONFIG:log.preallocate=false}
+  remote.storage.enable=false sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:remote.storage.enable=false}
+  retention.bytes=-1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.bytes=-1, DEFAULT_CONFIG:log.retention.bytes=-1}
+  retention.ms=604800000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.ms=604800000}
+  segment.bytes=1073741824 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:segment.bytes=1073741824, DEFAULT_CONFIG:log.segment.bytes=1073741824}
+  segment.index.bytes=10485760 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:segment.index.bytes=10485760, DEFAULT_CONFIG:log.index.size.max.bytes=10485760}
+  segment.jitter.ms=0 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:segment.jitter.ms=0}
+  segment.ms=604800000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:segment.ms=604800000}
+  unclean.leader.election.enable=false sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:unclean.leader.election.enable=false, DEFAULT_CONFIG:unclean.leader.election.enable=false}
+Dynamic configs for topic SpeedReportOutput are:
+  cleanup.policy=delete sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=delete, DEFAULT_CONFIG:log.cleanup.policy=delete}
+  retention.ms=604800000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.ms=604800000}
+Dynamic configs for topic __consumer_offsets are:
+  cleanup.policy=compact sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=compact, DEFAULT_CONFIG:log.cleanup.policy=delete}
+  compression.type=producer sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:compression.type=producer, DEFAULT_CONFIG:compression.type=producer}
+  segment.bytes=104857600 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:segment.bytes=104857600, DEFAULT_CONFIG:log.segment.bytes=1073741824}
+Dynamic configs for topic __transaction_state are:
+  cleanup.policy=compact sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=compact, DEFAULT_CONFIG:log.cleanup.policy=delete}
+  compression.type=uncompressed sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:compression.type=uncompressed, DEFAULT_CONFIG:compression.type=producer}
+  min.insync.replicas=1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:min.insync.replicas=1, DEFAULT_CONFIG:min.insync.replicas=1}
+  segment.bytes=104857600 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:segment.bytes=104857600, DEFAULT_CONFIG:log.segment.bytes=1073741824}
+  unclean.leader.election.enable=false sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:unclean.leader.election.enable=false, DEFAULT_CONFIG:unclean.leader.election.enable=false}
+Dynamic configs for topic _confluent-command are:
+  cleanup.policy=compact sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=compact, DEFAULT_CONFIG:log.cleanup.policy=delete}
+  min.insync.replicas=1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:min.insync.replicas=1, DEFAULT_CONFIG:min.insync.replicas=1}
+Dynamic configs for topic _confluent-controlcenter-7-7-1-1-AlertHistoryStore-changelog are:
+  cleanup.policy=compact sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=compact, DEFAULT_CONFIG:log.cleanup.policy=delete}
+  delete.retention.ms=691200000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:delete.retention.ms=691200000, DEFAULT_CONFIG:log.cleaner.delete.retention.ms=86400000}
+  message.timestamp.difference.max.ms=9223372036854775807 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.difference.max.ms=9223372036854775807, DEFAULT_CONFIG:log.message.timestamp.difference.max.ms=9223372036854775807}
+  message.timestamp.type=CreateTime sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.type=CreateTime, DEFAULT_CONFIG:log.message.timestamp.type=CreateTime}
+  min.insync.replicas=1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:min.insync.replicas=1, DEFAULT_CONFIG:min.insync.replicas=1}
+  retention.bytes=-1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.bytes=-1, DEFAULT_CONFIG:log.retention.bytes=-1}
+  retention.ms=691200000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.ms=691200000}
+  segment.bytes=134217728 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:segment.bytes=134217728, DEFAULT_CONFIG:log.segment.bytes=1073741824}
+Dynamic configs for topic _confluent-controlcenter-7-7-1-1-AlertHistoryStore-repartition are:
+  cleanup.policy=compact sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=compact, DEFAULT_CONFIG:log.cleanup.policy=delete}
+  delete.retention.ms=691200000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:delete.retention.ms=691200000, DEFAULT_CONFIG:log.cleaner.delete.retention.ms=86400000}
+  message.timestamp.difference.max.ms=9223372036854775807 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.difference.max.ms=9223372036854775807, DEFAULT_CONFIG:log.message.timestamp.difference.max.ms=9223372036854775807}
+  message.timestamp.type=CreateTime sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.type=CreateTime, DEFAULT_CONFIG:log.message.timestamp.type=CreateTime}
+  min.insync.replicas=1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:min.insync.replicas=1, DEFAULT_CONFIG:min.insync.replicas=1}
+  retention.bytes=-1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.bytes=-1, DEFAULT_CONFIG:log.retention.bytes=-1}
+  retention.ms=691200000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.ms=691200000}
+  segment.bytes=134217728 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:segment.bytes=134217728, DEFAULT_CONFIG:log.segment.bytes=1073741824}
+Dynamic configs for topic _confluent-controlcenter-7-7-1-1-Group-ONE_MINUTE-changelog are:
+  cleanup.policy=compact,delete sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=compact,delete, DEFAULT_CONFIG:log.cleanup.policy=delete}
+  delete.retention.ms=432000000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:delete.retention.ms=432000000, DEFAULT_CONFIG:log.cleaner.delete.retention.ms=86400000}
+  message.timestamp.difference.max.ms=9223372036854775807 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.difference.max.ms=9223372036854775807, DEFAULT_CONFIG:log.message.timestamp.difference.max.ms=9223372036854775807}
+  message.timestamp.type=CreateTime sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.type=CreateTime, DEFAULT_CONFIG:log.message.timestamp.type=CreateTime}
+  min.insync.replicas=1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:min.insync.replicas=1, DEFAULT_CONFIG:min.insync.replicas=1}
+  retention.bytes=-1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.bytes=-1, DEFAULT_CONFIG:log.retention.bytes=-1}
+  retention.ms=432000000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.ms=432000000}
+  segment.bytes=134217728 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:segment.bytes=134217728, DEFAULT_CONFIG:log.segment.bytes=1073741824}
+Dynamic configs for topic _confluent-controlcenter-7-7-1-1-Group-ONE_MINUTE-repartition are:
+  cleanup.policy=compact,delete sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=compact,delete, DEFAULT_CONFIG:log.cleanup.policy=delete}
+  delete.retention.ms=432000000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:delete.retention.ms=432000000, DEFAULT_CONFIG:log.cleaner.delete.retention.ms=86400000}
+  message.timestamp.difference.max.ms=9223372036854775807 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.difference.max.ms=9223372036854775807, DEFAULT_CONFIG:log.message.timestamp.difference.max.ms=9223372036854775807}
+  message.timestamp.type=CreateTime sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.type=CreateTime, DEFAULT_CONFIG:log.message.timestamp.type=CreateTime}
+  min.insync.replicas=1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:min.insync.replicas=1, DEFAULT_CONFIG:min.insync.replicas=1}
+  retention.bytes=-1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.bytes=-1, DEFAULT_CONFIG:log.retention.bytes=-1}
+  retention.ms=432000000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.ms=432000000}
+  segment.bytes=134217728 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:segment.bytes=134217728, DEFAULT_CONFIG:log.segment.bytes=1073741824}
+Dynamic configs for topic _confluent-controlcenter-7-7-1-1-Group-THREE_HOURS-changelog are:
+  cleanup.policy=compact,delete sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=compact,delete, DEFAULT_CONFIG:log.cleanup.policy=delete}
+  delete.retention.ms=60566400000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:delete.retention.ms=60566400000, DEFAULT_CONFIG:log.cleaner.delete.retention.ms=86400000}
+  message.timestamp.difference.max.ms=9223372036854775807 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.difference.max.ms=9223372036854775807, DEFAULT_CONFIG:log.message.timestamp.difference.max.ms=9223372036854775807}
+  message.timestamp.type=CreateTime sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.type=CreateTime, DEFAULT_CONFIG:log.message.timestamp.type=CreateTime}
+  min.insync.replicas=1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:min.insync.replicas=1, DEFAULT_CONFIG:min.insync.replicas=1}
+  retention.bytes=-1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.bytes=-1, DEFAULT_CONFIG:log.retention.bytes=-1}
+  retention.ms=60566400000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.ms=60566400000}
+  segment.bytes=134217728 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:segment.bytes=134217728, DEFAULT_CONFIG:log.segment.bytes=1073741824}
+Dynamic configs for topic _confluent-controlcenter-7-7-1-1-Group-THREE_HOURS-repartition are:
+  cleanup.policy=compact,delete sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=compact,delete, DEFAULT_CONFIG:log.cleanup.policy=delete}
+  delete.retention.ms=60566400000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:delete.retention.ms=60566400000, DEFAULT_CONFIG:log.cleaner.delete.retention.ms=86400000}
+  message.timestamp.difference.max.ms=9223372036854775807 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.difference.max.ms=9223372036854775807, DEFAULT_CONFIG:log.message.timestamp.difference.max.ms=9223372036854775807}
+  message.timestamp.type=CreateTime sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.type=CreateTime, DEFAULT_CONFIG:log.message.timestamp.type=CreateTime}
+  min.insync.replicas=1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:min.insync.replicas=1, DEFAULT_CONFIG:min.insync.replicas=1}
+  retention.bytes=-1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.bytes=-1, DEFAULT_CONFIG:log.retention.bytes=-1}
+  retention.ms=60566400000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.ms=60566400000}
+  segment.bytes=134217728 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:segment.bytes=134217728, DEFAULT_CONFIG:log.segment.bytes=1073741824}
+Dynamic configs for topic _confluent-controlcenter-7-7-1-1-KSTREAM-OUTEROTHER-0000000106-store-changelog are:
+  cleanup.policy=compact,delete sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=compact,delete, DEFAULT_CONFIG:log.cleanup.policy=delete}
+  delete.retention.ms=691200000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:delete.retention.ms=691200000, DEFAULT_CONFIG:log.cleaner.delete.retention.ms=86400000}
+  message.timestamp.difference.max.ms=9223372036854775807 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.difference.max.ms=9223372036854775807, DEFAULT_CONFIG:log.message.timestamp.difference.max.ms=9223372036854775807}
+  message.timestamp.type=CreateTime sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.type=CreateTime, DEFAULT_CONFIG:log.message.timestamp.type=CreateTime}
+  min.insync.replicas=1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:min.insync.replicas=1, DEFAULT_CONFIG:min.insync.replicas=1}
+  retention.bytes=-1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.bytes=-1, DEFAULT_CONFIG:log.retention.bytes=-1}
+  retention.ms=691200000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.ms=691200000}
+  segment.bytes=134217728 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:segment.bytes=134217728, DEFAULT_CONFIG:log.segment.bytes=1073741824}
+Dynamic configs for topic _confluent-controlcenter-7-7-1-1-KSTREAM-OUTEROTHER-0000000106-store-repartition are:
+  cleanup.policy=compact,delete sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=compact,delete, DEFAULT_CONFIG:log.cleanup.policy=delete}
+  delete.retention.ms=691200000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:delete.retention.ms=691200000, DEFAULT_CONFIG:log.cleaner.delete.retention.ms=86400000}
+  message.timestamp.difference.max.ms=9223372036854775807 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.difference.max.ms=9223372036854775807, DEFAULT_CONFIG:log.message.timestamp.difference.max.ms=9223372036854775807}
+  message.timestamp.type=CreateTime sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.type=CreateTime, DEFAULT_CONFIG:log.message.timestamp.type=CreateTime}
+  min.insync.replicas=1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:min.insync.replicas=1, DEFAULT_CONFIG:min.insync.replicas=1}
+  retention.bytes=-1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.bytes=-1, DEFAULT_CONFIG:log.retention.bytes=-1}
+  retention.ms=691200000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.ms=691200000}
+  segment.bytes=134217728 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:segment.bytes=134217728, DEFAULT_CONFIG:log.segment.bytes=1073741824}
+Dynamic configs for topic _confluent-controlcenter-7-7-1-1-KSTREAM-OUTERTHIS-0000000105-store-changelog are:
+  cleanup.policy=compact,delete sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=compact,delete, DEFAULT_CONFIG:log.cleanup.policy=delete}
+  delete.retention.ms=691200000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:delete.retention.ms=691200000, DEFAULT_CONFIG:log.cleaner.delete.retention.ms=86400000}
+  message.timestamp.difference.max.ms=9223372036854775807 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.difference.max.ms=9223372036854775807, DEFAULT_CONFIG:log.message.timestamp.difference.max.ms=9223372036854775807}
+  message.timestamp.type=CreateTime sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.type=CreateTime, DEFAULT_CONFIG:log.message.timestamp.type=CreateTime}
+  min.insync.replicas=1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:min.insync.replicas=1, DEFAULT_CONFIG:min.insync.replicas=1}
+  retention.bytes=-1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.bytes=-1, DEFAULT_CONFIG:log.retention.bytes=-1}
+  retention.ms=691200000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.ms=691200000}
+  segment.bytes=134217728 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:segment.bytes=134217728, DEFAULT_CONFIG:log.segment.bytes=1073741824}
+Dynamic configs for topic _confluent-controlcenter-7-7-1-1-KSTREAM-OUTERTHIS-0000000105-store-repartition are:
+  cleanup.policy=compact,delete sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=compact,delete, DEFAULT_CONFIG:log.cleanup.policy=delete}
+  delete.retention.ms=691200000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:delete.retention.ms=691200000, DEFAULT_CONFIG:log.cleaner.delete.retention.ms=86400000}
+  message.timestamp.difference.max.ms=9223372036854775807 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.difference.max.ms=9223372036854775807, DEFAULT_CONFIG:log.message.timestamp.difference.max.ms=9223372036854775807}
+  message.timestamp.type=CreateTime sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.type=CreateTime, DEFAULT_CONFIG:log.message.timestamp.type=CreateTime}
+  min.insync.replicas=1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:min.insync.replicas=1, DEFAULT_CONFIG:min.insync.replicas=1}
+  retention.bytes=-1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.bytes=-1, DEFAULT_CONFIG:log.retention.bytes=-1}
+  retention.ms=691200000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.ms=691200000}
+  segment.bytes=134217728 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:segment.bytes=134217728, DEFAULT_CONFIG:log.segment.bytes=1073741824}
+Dynamic configs for topic _confluent-controlcenter-7-7-1-1-MetricsAggregateStore-changelog are:
+  cleanup.policy=compact,delete sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=compact,delete, DEFAULT_CONFIG:log.cleanup.policy=delete}
+  delete.retention.ms=691200000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:delete.retention.ms=691200000, DEFAULT_CONFIG:log.cleaner.delete.retention.ms=86400000}
+  message.timestamp.difference.max.ms=9223372036854775807 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.difference.max.ms=9223372036854775807, DEFAULT_CONFIG:log.message.timestamp.difference.max.ms=9223372036854775807}
+  message.timestamp.type=CreateTime sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.type=CreateTime, DEFAULT_CONFIG:log.message.timestamp.type=CreateTime}
+  min.insync.replicas=1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:min.insync.replicas=1, DEFAULT_CONFIG:min.insync.replicas=1}
+  retention.bytes=-1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.bytes=-1, DEFAULT_CONFIG:log.retention.bytes=-1}
+  retention.ms=691200000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.ms=691200000}
+  segment.bytes=134217728 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:segment.bytes=134217728, DEFAULT_CONFIG:log.segment.bytes=1073741824}
+Dynamic configs for topic _confluent-controlcenter-7-7-1-1-MetricsAggregateStore-repartition are:
+  cleanup.policy=delete sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=delete, DEFAULT_CONFIG:log.cleanup.policy=delete}
+  message.timestamp.difference.max.ms=9223372036854775807 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.difference.max.ms=9223372036854775807, DEFAULT_CONFIG:log.message.timestamp.difference.max.ms=9223372036854775807}
+  message.timestamp.type=CreateTime sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.type=CreateTime, DEFAULT_CONFIG:log.message.timestamp.type=CreateTime}
+  min.insync.replicas=1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:min.insync.replicas=1, DEFAULT_CONFIG:min.insync.replicas=1}
+  retention.bytes=-1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.bytes=-1, DEFAULT_CONFIG:log.retention.bytes=-1}
+  retention.ms=604800000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.ms=604800000}
+Dynamic configs for topic _confluent-controlcenter-7-7-1-1-MonitoringMessageAggregatorWindows-ONE_MINUTE-changelog are:
+  cleanup.policy=compact,delete sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=compact,delete, DEFAULT_CONFIG:log.cleanup.policy=delete}
+  delete.retention.ms=432000000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:delete.retention.ms=432000000, DEFAULT_CONFIG:log.cleaner.delete.retention.ms=86400000}
+  message.timestamp.difference.max.ms=9223372036854775807 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.difference.max.ms=9223372036854775807, DEFAULT_CONFIG:log.message.timestamp.difference.max.ms=9223372036854775807}
+  message.timestamp.type=CreateTime sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.type=CreateTime, DEFAULT_CONFIG:log.message.timestamp.type=CreateTime}
+  min.insync.replicas=1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:min.insync.replicas=1, DEFAULT_CONFIG:min.insync.replicas=1}
+  retention.bytes=-1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.bytes=-1, DEFAULT_CONFIG:log.retention.bytes=-1}
+  retention.ms=432000000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.ms=432000000}
+  segment.bytes=134217728 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:segment.bytes=134217728, DEFAULT_CONFIG:log.segment.bytes=1073741824}
+Dynamic configs for topic _confluent-controlcenter-7-7-1-1-MonitoringMessageAggregatorWindows-ONE_MINUTE-repartition are:
+  cleanup.policy=compact,delete sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=compact,delete, DEFAULT_CONFIG:log.cleanup.policy=delete}
+  delete.retention.ms=432000000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:delete.retention.ms=432000000, DEFAULT_CONFIG:log.cleaner.delete.retention.ms=86400000}
+  message.timestamp.difference.max.ms=9223372036854775807 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.difference.max.ms=9223372036854775807, DEFAULT_CONFIG:log.message.timestamp.difference.max.ms=9223372036854775807}
+  message.timestamp.type=CreateTime sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.type=CreateTime, DEFAULT_CONFIG:log.message.timestamp.type=CreateTime}
+  min.insync.replicas=1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:min.insync.replicas=1, DEFAULT_CONFIG:min.insync.replicas=1}
+  retention.bytes=-1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.bytes=-1, DEFAULT_CONFIG:log.retention.bytes=-1}
+  retention.ms=432000000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.ms=432000000}
+  segment.bytes=134217728 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:segment.bytes=134217728, DEFAULT_CONFIG:log.segment.bytes=1073741824}
+Dynamic configs for topic _confluent-controlcenter-7-7-1-1-MonitoringMessageAggregatorWindows-THREE_HOURS-changelog are:
+  cleanup.policy=compact,delete sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=compact,delete, DEFAULT_CONFIG:log.cleanup.policy=delete}
+  delete.retention.ms=60566400000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:delete.retention.ms=60566400000, DEFAULT_CONFIG:log.cleaner.delete.retention.ms=86400000}
+  message.timestamp.difference.max.ms=9223372036854775807 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.difference.max.ms=9223372036854775807, DEFAULT_CONFIG:log.message.timestamp.difference.max.ms=9223372036854775807}
+  message.timestamp.type=CreateTime sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.type=CreateTime, DEFAULT_CONFIG:log.message.timestamp.type=CreateTime}
+  min.insync.replicas=1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:min.insync.replicas=1, DEFAULT_CONFIG:min.insync.replicas=1}
+  retention.bytes=-1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.bytes=-1, DEFAULT_CONFIG:log.retention.bytes=-1}
+  retention.ms=60566400000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.ms=60566400000}
+  segment.bytes=134217728 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:segment.bytes=134217728, DEFAULT_CONFIG:log.segment.bytes=1073741824}
+Dynamic configs for topic _confluent-controlcenter-7-7-1-1-MonitoringMessageAggregatorWindows-THREE_HOURS-repartition are:
+  cleanup.policy=compact,delete sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=compact,delete, DEFAULT_CONFIG:log.cleanup.policy=delete}
+  delete.retention.ms=60566400000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:delete.retention.ms=60566400000, DEFAULT_CONFIG:log.cleaner.delete.retention.ms=86400000}
+  message.timestamp.difference.max.ms=9223372036854775807 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.difference.max.ms=9223372036854775807, DEFAULT_CONFIG:log.message.timestamp.difference.max.ms=9223372036854775807}
+  message.timestamp.type=CreateTime sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.type=CreateTime, DEFAULT_CONFIG:log.message.timestamp.type=CreateTime}
+  min.insync.replicas=1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:min.insync.replicas=1, DEFAULT_CONFIG:min.insync.replicas=1}
+  retention.bytes=-1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.bytes=-1, DEFAULT_CONFIG:log.retention.bytes=-1}
+  retention.ms=60566400000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.ms=60566400000}
+  segment.bytes=134217728 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:segment.bytes=134217728, DEFAULT_CONFIG:log.segment.bytes=1073741824}
+Dynamic configs for topic _confluent-controlcenter-7-7-1-1-MonitoringStream-ONE_MINUTE-changelog are:
+  cleanup.policy=compact,delete sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=compact,delete, DEFAULT_CONFIG:log.cleanup.policy=delete}
+  delete.retention.ms=432000000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:delete.retention.ms=432000000, DEFAULT_CONFIG:log.cleaner.delete.retention.ms=86400000}
+  message.timestamp.difference.max.ms=9223372036854775807 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.difference.max.ms=9223372036854775807, DEFAULT_CONFIG:log.message.timestamp.difference.max.ms=9223372036854775807}
+  message.timestamp.type=CreateTime sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.type=CreateTime, DEFAULT_CONFIG:log.message.timestamp.type=CreateTime}
+  min.insync.replicas=1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:min.insync.replicas=1, DEFAULT_CONFIG:min.insync.replicas=1}
+  retention.bytes=-1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.bytes=-1, DEFAULT_CONFIG:log.retention.bytes=-1}
+  retention.ms=432000000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.ms=432000000}
+  segment.bytes=134217728 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:segment.bytes=134217728, DEFAULT_CONFIG:log.segment.bytes=1073741824}
+Dynamic configs for topic _confluent-controlcenter-7-7-1-1-MonitoringStream-ONE_MINUTE-repartition are:
+  cleanup.policy=compact,delete sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=compact,delete, DEFAULT_CONFIG:log.cleanup.policy=delete}
+  delete.retention.ms=432000000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:delete.retention.ms=432000000, DEFAULT_CONFIG:log.cleaner.delete.retention.ms=86400000}
+  message.timestamp.difference.max.ms=9223372036854775807 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.difference.max.ms=9223372036854775807, DEFAULT_CONFIG:log.message.timestamp.difference.max.ms=9223372036854775807}
+  message.timestamp.type=CreateTime sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.type=CreateTime, DEFAULT_CONFIG:log.message.timestamp.type=CreateTime}
+  min.insync.replicas=1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:min.insync.replicas=1, DEFAULT_CONFIG:min.insync.replicas=1}
+  retention.bytes=-1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.bytes=-1, DEFAULT_CONFIG:log.retention.bytes=-1}
+  retention.ms=432000000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.ms=432000000}
+  segment.bytes=134217728 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:segment.bytes=134217728, DEFAULT_CONFIG:log.segment.bytes=1073741824}
+Dynamic configs for topic _confluent-controlcenter-7-7-1-1-MonitoringStream-THREE_HOURS-changelog are:
+  cleanup.policy=compact,delete sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=compact,delete, DEFAULT_CONFIG:log.cleanup.policy=delete}
+  delete.retention.ms=60566400000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:delete.retention.ms=60566400000, DEFAULT_CONFIG:log.cleaner.delete.retention.ms=86400000}
+  message.timestamp.difference.max.ms=9223372036854775807 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.difference.max.ms=9223372036854775807, DEFAULT_CONFIG:log.message.timestamp.difference.max.ms=9223372036854775807}
+  message.timestamp.type=CreateTime sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.type=CreateTime, DEFAULT_CONFIG:log.message.timestamp.type=CreateTime}
+  min.insync.replicas=1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:min.insync.replicas=1, DEFAULT_CONFIG:min.insync.replicas=1}
+  retention.bytes=-1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.bytes=-1, DEFAULT_CONFIG:log.retention.bytes=-1}
+  retention.ms=60566400000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.ms=60566400000}
+  segment.bytes=134217728 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:segment.bytes=134217728, DEFAULT_CONFIG:log.segment.bytes=1073741824}
+Dynamic configs for topic _confluent-controlcenter-7-7-1-1-MonitoringStream-THREE_HOURS-repartition are:
+  cleanup.policy=compact,delete sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=compact,delete, DEFAULT_CONFIG:log.cleanup.policy=delete}
+  delete.retention.ms=60566400000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:delete.retention.ms=60566400000, DEFAULT_CONFIG:log.cleaner.delete.retention.ms=86400000}
+  message.timestamp.difference.max.ms=9223372036854775807 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.difference.max.ms=9223372036854775807, DEFAULT_CONFIG:log.message.timestamp.difference.max.ms=9223372036854775807}
+  message.timestamp.type=CreateTime sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.type=CreateTime, DEFAULT_CONFIG:log.message.timestamp.type=CreateTime}
+  min.insync.replicas=1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:min.insync.replicas=1, DEFAULT_CONFIG:min.insync.replicas=1}
+  retention.bytes=-1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.bytes=-1, DEFAULT_CONFIG:log.retention.bytes=-1}
+  retention.ms=60566400000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.ms=60566400000}
+  segment.bytes=134217728 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:segment.bytes=134217728, DEFAULT_CONFIG:log.segment.bytes=1073741824}
+Dynamic configs for topic _confluent-controlcenter-7-7-1-1-MonitoringTriggerStore-changelog are:
+  cleanup.policy=compact sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=compact, DEFAULT_CONFIG:log.cleanup.policy=delete}
+  delete.retention.ms=691200000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:delete.retention.ms=691200000, DEFAULT_CONFIG:log.cleaner.delete.retention.ms=86400000}
+  message.timestamp.difference.max.ms=9223372036854775807 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.difference.max.ms=9223372036854775807, DEFAULT_CONFIG:log.message.timestamp.difference.max.ms=9223372036854775807}
+  message.timestamp.type=CreateTime sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.type=CreateTime, DEFAULT_CONFIG:log.message.timestamp.type=CreateTime}
+  min.insync.replicas=1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:min.insync.replicas=1, DEFAULT_CONFIG:min.insync.replicas=1}
+  retention.bytes=-1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.bytes=-1, DEFAULT_CONFIG:log.retention.bytes=-1}
+  retention.ms=691200000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.ms=691200000}
+  segment.bytes=134217728 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:segment.bytes=134217728, DEFAULT_CONFIG:log.segment.bytes=1073741824}
+Dynamic configs for topic _confluent-controlcenter-7-7-1-1-MonitoringTriggerStore-repartition are:
+  cleanup.policy=compact sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=compact, DEFAULT_CONFIG:log.cleanup.policy=delete}
+  delete.retention.ms=691200000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:delete.retention.ms=691200000, DEFAULT_CONFIG:log.cleaner.delete.retention.ms=86400000}
+  message.timestamp.difference.max.ms=9223372036854775807 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.difference.max.ms=9223372036854775807, DEFAULT_CONFIG:log.message.timestamp.difference.max.ms=9223372036854775807}
+  message.timestamp.type=CreateTime sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.type=CreateTime, DEFAULT_CONFIG:log.message.timestamp.type=CreateTime}
+  min.insync.replicas=1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:min.insync.replicas=1, DEFAULT_CONFIG:min.insync.replicas=1}
+  retention.bytes=-1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.bytes=-1, DEFAULT_CONFIG:log.retention.bytes=-1}
+  retention.ms=691200000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.ms=691200000}
+  segment.bytes=134217728 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:segment.bytes=134217728, DEFAULT_CONFIG:log.segment.bytes=1073741824}
+Dynamic configs for topic _confluent-controlcenter-7-7-1-1-MonitoringVerifierStore-changelog are:
+  cleanup.policy=compact sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=compact, DEFAULT_CONFIG:log.cleanup.policy=delete}
+  delete.retention.ms=691200000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:delete.retention.ms=691200000, DEFAULT_CONFIG:log.cleaner.delete.retention.ms=86400000}
+  message.timestamp.difference.max.ms=9223372036854775807 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.difference.max.ms=9223372036854775807, DEFAULT_CONFIG:log.message.timestamp.difference.max.ms=9223372036854775807}
+  message.timestamp.type=CreateTime sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.type=CreateTime, DEFAULT_CONFIG:log.message.timestamp.type=CreateTime}
+  min.insync.replicas=1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:min.insync.replicas=1, DEFAULT_CONFIG:min.insync.replicas=1}
+  retention.bytes=-1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.bytes=-1, DEFAULT_CONFIG:log.retention.bytes=-1}
+  retention.ms=691200000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.ms=691200000}
+  segment.bytes=134217728 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:segment.bytes=134217728, DEFAULT_CONFIG:log.segment.bytes=1073741824}
+Dynamic configs for topic _confluent-controlcenter-7-7-1-1-MonitoringVerifierStore-repartition are:
+  cleanup.policy=compact sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=compact, DEFAULT_CONFIG:log.cleanup.policy=delete}
+  delete.retention.ms=691200000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:delete.retention.ms=691200000, DEFAULT_CONFIG:log.cleaner.delete.retention.ms=86400000}
+  message.timestamp.difference.max.ms=9223372036854775807 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.difference.max.ms=9223372036854775807, DEFAULT_CONFIG:log.message.timestamp.difference.max.ms=9223372036854775807}
+  message.timestamp.type=CreateTime sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.type=CreateTime, DEFAULT_CONFIG:log.message.timestamp.type=CreateTime}
+  min.insync.replicas=1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:min.insync.replicas=1, DEFAULT_CONFIG:min.insync.replicas=1}
+  retention.bytes=-1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.bytes=-1, DEFAULT_CONFIG:log.retention.bytes=-1}
+  retention.ms=691200000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.ms=691200000}
+  segment.bytes=134217728 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:segment.bytes=134217728, DEFAULT_CONFIG:log.segment.bytes=1073741824}
+Dynamic configs for topic _confluent-controlcenter-7-7-1-1-TriggerActionsStore-changelog are:
+  cleanup.policy=compact sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=compact, DEFAULT_CONFIG:log.cleanup.policy=delete}
+  delete.retention.ms=691200000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:delete.retention.ms=691200000, DEFAULT_CONFIG:log.cleaner.delete.retention.ms=86400000}
+  message.timestamp.difference.max.ms=9223372036854775807 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.difference.max.ms=9223372036854775807, DEFAULT_CONFIG:log.message.timestamp.difference.max.ms=9223372036854775807}
+  message.timestamp.type=CreateTime sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.type=CreateTime, DEFAULT_CONFIG:log.message.timestamp.type=CreateTime}
+  min.insync.replicas=1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:min.insync.replicas=1, DEFAULT_CONFIG:min.insync.replicas=1}
+  retention.bytes=-1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.bytes=-1, DEFAULT_CONFIG:log.retention.bytes=-1}
+  retention.ms=691200000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.ms=691200000}
+  segment.bytes=134217728 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:segment.bytes=134217728, DEFAULT_CONFIG:log.segment.bytes=1073741824}
+Dynamic configs for topic _confluent-controlcenter-7-7-1-1-TriggerActionsStore-repartition are:
+  cleanup.policy=compact sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=compact, DEFAULT_CONFIG:log.cleanup.policy=delete}
+  delete.retention.ms=691200000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:delete.retention.ms=691200000, DEFAULT_CONFIG:log.cleaner.delete.retention.ms=86400000}
+  message.timestamp.difference.max.ms=9223372036854775807 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.difference.max.ms=9223372036854775807, DEFAULT_CONFIG:log.message.timestamp.difference.max.ms=9223372036854775807}
+  message.timestamp.type=CreateTime sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.type=CreateTime, DEFAULT_CONFIG:log.message.timestamp.type=CreateTime}
+  min.insync.replicas=1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:min.insync.replicas=1, DEFAULT_CONFIG:min.insync.replicas=1}
+  retention.bytes=-1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.bytes=-1, DEFAULT_CONFIG:log.retention.bytes=-1}
+  retention.ms=691200000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.ms=691200000}
+  segment.bytes=134217728 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:segment.bytes=134217728, DEFAULT_CONFIG:log.segment.bytes=1073741824}
+Dynamic configs for topic _confluent-controlcenter-7-7-1-1-TriggerEventsStore-changelog are:
+  cleanup.policy=compact sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=compact, DEFAULT_CONFIG:log.cleanup.policy=delete}
+  delete.retention.ms=691200000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:delete.retention.ms=691200000, DEFAULT_CONFIG:log.cleaner.delete.retention.ms=86400000}
+  message.timestamp.difference.max.ms=9223372036854775807 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.difference.max.ms=9223372036854775807, DEFAULT_CONFIG:log.message.timestamp.difference.max.ms=9223372036854775807}
+  message.timestamp.type=CreateTime sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.type=CreateTime, DEFAULT_CONFIG:log.message.timestamp.type=CreateTime}
+  min.insync.replicas=1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:min.insync.replicas=1, DEFAULT_CONFIG:min.insync.replicas=1}
+  retention.bytes=-1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.bytes=-1, DEFAULT_CONFIG:log.retention.bytes=-1}
+  retention.ms=691200000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.ms=691200000}
+  segment.bytes=134217728 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:segment.bytes=134217728, DEFAULT_CONFIG:log.segment.bytes=1073741824}
+Dynamic configs for topic _confluent-controlcenter-7-7-1-1-TriggerEventsStore-repartition are:
+  cleanup.policy=compact sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=compact, DEFAULT_CONFIG:log.cleanup.policy=delete}
+  delete.retention.ms=691200000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:delete.retention.ms=691200000, DEFAULT_CONFIG:log.cleaner.delete.retention.ms=86400000}
+  message.timestamp.difference.max.ms=9223372036854775807 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.difference.max.ms=9223372036854775807, DEFAULT_CONFIG:log.message.timestamp.difference.max.ms=9223372036854775807}
+  message.timestamp.type=CreateTime sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.type=CreateTime, DEFAULT_CONFIG:log.message.timestamp.type=CreateTime}
+  min.insync.replicas=1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:min.insync.replicas=1, DEFAULT_CONFIG:min.insync.replicas=1}
+  retention.bytes=-1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.bytes=-1, DEFAULT_CONFIG:log.retention.bytes=-1}
+  retention.ms=691200000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.ms=691200000}
+  segment.bytes=134217728 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:segment.bytes=134217728, DEFAULT_CONFIG:log.segment.bytes=1073741824}
+Dynamic configs for topic _confluent-controlcenter-7-7-1-1-actual-group-consumption-rekey are:
+  cleanup.policy=delete sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=delete, DEFAULT_CONFIG:log.cleanup.policy=delete}
+  message.timestamp.type=LogAppendTime sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.type=LogAppendTime, DEFAULT_CONFIG:log.message.timestamp.type=CreateTime}
+  min.insync.replicas=1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:min.insync.replicas=1, DEFAULT_CONFIG:min.insync.replicas=1}
+  retention.bytes=-1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.bytes=-1, DEFAULT_CONFIG:log.retention.bytes=-1}
+  retention.ms=604800000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.ms=604800000}
+Dynamic configs for topic _confluent-controlcenter-7-7-1-1-aggregate-topic-partition-store-changelog are:
+  cleanup.policy=compact sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=compact, DEFAULT_CONFIG:log.cleanup.policy=delete}
+  delete.retention.ms=691200000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:delete.retention.ms=691200000, DEFAULT_CONFIG:log.cleaner.delete.retention.ms=86400000}
+  message.timestamp.difference.max.ms=9223372036854775807 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.difference.max.ms=9223372036854775807, DEFAULT_CONFIG:log.message.timestamp.difference.max.ms=9223372036854775807}
+  message.timestamp.type=CreateTime sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.type=CreateTime, DEFAULT_CONFIG:log.message.timestamp.type=CreateTime}
+  min.insync.replicas=1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:min.insync.replicas=1, DEFAULT_CONFIG:min.insync.replicas=1}
+  retention.bytes=-1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.bytes=-1, DEFAULT_CONFIG:log.retention.bytes=-1}
+  retention.ms=691200000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.ms=691200000}
+  segment.bytes=67108864 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:segment.bytes=67108864, DEFAULT_CONFIG:log.segment.bytes=1073741824}
+Dynamic configs for topic _confluent-controlcenter-7-7-1-1-aggregate-topic-partition-store-repartition are:
+  cleanup.policy=compact sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=compact, DEFAULT_CONFIG:log.cleanup.policy=delete}
+  delete.retention.ms=691200000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:delete.retention.ms=691200000, DEFAULT_CONFIG:log.cleaner.delete.retention.ms=86400000}
+  message.timestamp.difference.max.ms=9223372036854775807 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.difference.max.ms=9223372036854775807, DEFAULT_CONFIG:log.message.timestamp.difference.max.ms=9223372036854775807}
+  message.timestamp.type=CreateTime sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.type=CreateTime, DEFAULT_CONFIG:log.message.timestamp.type=CreateTime}
+  min.insync.replicas=1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:min.insync.replicas=1, DEFAULT_CONFIG:min.insync.replicas=1}
+  retention.bytes=-1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.bytes=-1, DEFAULT_CONFIG:log.retention.bytes=-1}
+  retention.ms=691200000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.ms=691200000}
+  segment.bytes=67108864 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:segment.bytes=67108864, DEFAULT_CONFIG:log.segment.bytes=1073741824}
+Dynamic configs for topic _confluent-controlcenter-7-7-1-1-aggregatedTopicPartitionTableWindows-ONE_MINUTE-changelog are:
+  cleanup.policy=compact,delete sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=compact,delete, DEFAULT_CONFIG:log.cleanup.policy=delete}
+  delete.retention.ms=432000000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:delete.retention.ms=432000000, DEFAULT_CONFIG:log.cleaner.delete.retention.ms=86400000}
+  message.timestamp.difference.max.ms=9223372036854775807 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.difference.max.ms=9223372036854775807, DEFAULT_CONFIG:log.message.timestamp.difference.max.ms=9223372036854775807}
+  message.timestamp.type=CreateTime sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.type=CreateTime, DEFAULT_CONFIG:log.message.timestamp.type=CreateTime}
+  min.insync.replicas=1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:min.insync.replicas=1, DEFAULT_CONFIG:min.insync.replicas=1}
+  retention.bytes=-1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.bytes=-1, DEFAULT_CONFIG:log.retention.bytes=-1}
+  retention.ms=432000000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.ms=432000000}
+  segment.bytes=134217728 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:segment.bytes=134217728, DEFAULT_CONFIG:log.segment.bytes=1073741824}
+Dynamic configs for topic _confluent-controlcenter-7-7-1-1-aggregatedTopicPartitionTableWindows-ONE_MINUTE-repartition are:
+  cleanup.policy=compact,delete sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=compact,delete, DEFAULT_CONFIG:log.cleanup.policy=delete}
+  delete.retention.ms=432000000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:delete.retention.ms=432000000, DEFAULT_CONFIG:log.cleaner.delete.retention.ms=86400000}
+  message.timestamp.difference.max.ms=9223372036854775807 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.difference.max.ms=9223372036854775807, DEFAULT_CONFIG:log.message.timestamp.difference.max.ms=9223372036854775807}
+  message.timestamp.type=CreateTime sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.type=CreateTime, DEFAULT_CONFIG:log.message.timestamp.type=CreateTime}
+  min.insync.replicas=1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:min.insync.replicas=1, DEFAULT_CONFIG:min.insync.replicas=1}
+  retention.bytes=-1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.bytes=-1, DEFAULT_CONFIG:log.retention.bytes=-1}
+  retention.ms=432000000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.ms=432000000}
+  segment.bytes=134217728 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:segment.bytes=134217728, DEFAULT_CONFIG:log.segment.bytes=1073741824}
+Dynamic configs for topic _confluent-controlcenter-7-7-1-1-aggregatedTopicPartitionTableWindows-THREE_HOURS-changelog are:
+  cleanup.policy=compact,delete sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=compact,delete, DEFAULT_CONFIG:log.cleanup.policy=delete}
+  delete.retention.ms=60566400000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:delete.retention.ms=60566400000, DEFAULT_CONFIG:log.cleaner.delete.retention.ms=86400000}
+  message.timestamp.difference.max.ms=9223372036854775807 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.difference.max.ms=9223372036854775807, DEFAULT_CONFIG:log.message.timestamp.difference.max.ms=9223372036854775807}
+  message.timestamp.type=CreateTime sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.type=CreateTime, DEFAULT_CONFIG:log.message.timestamp.type=CreateTime}
+  min.insync.replicas=1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:min.insync.replicas=1, DEFAULT_CONFIG:min.insync.replicas=1}
+  retention.bytes=-1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.bytes=-1, DEFAULT_CONFIG:log.retention.bytes=-1}
+  retention.ms=60566400000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.ms=60566400000}
+  segment.bytes=134217728 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:segment.bytes=134217728, DEFAULT_CONFIG:log.segment.bytes=1073741824}
+Dynamic configs for topic _confluent-controlcenter-7-7-1-1-aggregatedTopicPartitionTableWindows-THREE_HOURS-repartition are:
+  cleanup.policy=compact,delete sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=compact,delete, DEFAULT_CONFIG:log.cleanup.policy=delete}
+  delete.retention.ms=60566400000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:delete.retention.ms=60566400000, DEFAULT_CONFIG:log.cleaner.delete.retention.ms=86400000}
+  message.timestamp.difference.max.ms=9223372036854775807 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.difference.max.ms=9223372036854775807, DEFAULT_CONFIG:log.message.timestamp.difference.max.ms=9223372036854775807}
+  message.timestamp.type=CreateTime sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.type=CreateTime, DEFAULT_CONFIG:log.message.timestamp.type=CreateTime}
+  min.insync.replicas=1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:min.insync.replicas=1, DEFAULT_CONFIG:min.insync.replicas=1}
+  retention.bytes=-1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.bytes=-1, DEFAULT_CONFIG:log.retention.bytes=-1}
+  retention.ms=60566400000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.ms=60566400000}
+  segment.bytes=134217728 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:segment.bytes=134217728, DEFAULT_CONFIG:log.segment.bytes=1073741824}
+Dynamic configs for topic _confluent-controlcenter-7-7-1-1-cluster-rekey are:
+  cleanup.policy=delete sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=delete, DEFAULT_CONFIG:log.cleanup.policy=delete}
+  message.timestamp.type=LogAppendTime sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.type=LogAppendTime, DEFAULT_CONFIG:log.message.timestamp.type=CreateTime}
+  min.insync.replicas=1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:min.insync.replicas=1, DEFAULT_CONFIG:min.insync.replicas=1}
+  retention.bytes=-1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.bytes=-1, DEFAULT_CONFIG:log.retention.bytes=-1}
+  retention.ms=604800000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.ms=604800000}
+Dynamic configs for topic _confluent-controlcenter-7-7-1-1-expected-group-consumption-rekey are:
+  cleanup.policy=delete sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=delete, DEFAULT_CONFIG:log.cleanup.policy=delete}
+  message.timestamp.type=LogAppendTime sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.type=LogAppendTime, DEFAULT_CONFIG:log.message.timestamp.type=CreateTime}
+  min.insync.replicas=1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:min.insync.replicas=1, DEFAULT_CONFIG:min.insync.replicas=1}
+  retention.bytes=-1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.bytes=-1, DEFAULT_CONFIG:log.retention.bytes=-1}
+  retention.ms=604800000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.ms=604800000}
+Dynamic configs for topic _confluent-controlcenter-7-7-1-1-group-aggregate-store-ONE_MINUTE-changelog are:
+  cleanup.policy=compact sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=compact, DEFAULT_CONFIG:log.cleanup.policy=delete}
+  delete.retention.ms=432000000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:delete.retention.ms=432000000, DEFAULT_CONFIG:log.cleaner.delete.retention.ms=86400000}
+  message.timestamp.difference.max.ms=9223372036854775807 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.difference.max.ms=9223372036854775807, DEFAULT_CONFIG:log.message.timestamp.difference.max.ms=9223372036854775807}
+  message.timestamp.type=CreateTime sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.type=CreateTime, DEFAULT_CONFIG:log.message.timestamp.type=CreateTime}
+  min.insync.replicas=1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:min.insync.replicas=1, DEFAULT_CONFIG:min.insync.replicas=1}
+  retention.bytes=-1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.bytes=-1, DEFAULT_CONFIG:log.retention.bytes=-1}
+  retention.ms=432000000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.ms=432000000}
+  segment.bytes=67108864 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:segment.bytes=67108864, DEFAULT_CONFIG:log.segment.bytes=1073741824}
+Dynamic configs for topic _confluent-controlcenter-7-7-1-1-group-aggregate-store-ONE_MINUTE-repartition are:
+  cleanup.policy=compact sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=compact, DEFAULT_CONFIG:log.cleanup.policy=delete}
+  delete.retention.ms=432000000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:delete.retention.ms=432000000, DEFAULT_CONFIG:log.cleaner.delete.retention.ms=86400000}
+  message.timestamp.difference.max.ms=9223372036854775807 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.difference.max.ms=9223372036854775807, DEFAULT_CONFIG:log.message.timestamp.difference.max.ms=9223372036854775807}
+  message.timestamp.type=CreateTime sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.type=CreateTime, DEFAULT_CONFIG:log.message.timestamp.type=CreateTime}
+  min.insync.replicas=1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:min.insync.replicas=1, DEFAULT_CONFIG:min.insync.replicas=1}
+  retention.bytes=-1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.bytes=-1, DEFAULT_CONFIG:log.retention.bytes=-1}
+  retention.ms=432000000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.ms=432000000}
+  segment.bytes=67108864 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:segment.bytes=67108864, DEFAULT_CONFIG:log.segment.bytes=1073741824}
+Dynamic configs for topic _confluent-controlcenter-7-7-1-1-group-aggregate-store-THREE_HOURS-changelog are:
+  cleanup.policy=compact sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=compact, DEFAULT_CONFIG:log.cleanup.policy=delete}
+  delete.retention.ms=60566400000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:delete.retention.ms=60566400000, DEFAULT_CONFIG:log.cleaner.delete.retention.ms=86400000}
+  message.timestamp.difference.max.ms=9223372036854775807 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.difference.max.ms=9223372036854775807, DEFAULT_CONFIG:log.message.timestamp.difference.max.ms=9223372036854775807}
+  message.timestamp.type=CreateTime sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.type=CreateTime, DEFAULT_CONFIG:log.message.timestamp.type=CreateTime}
+  min.insync.replicas=1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:min.insync.replicas=1, DEFAULT_CONFIG:min.insync.replicas=1}
+  retention.bytes=-1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.bytes=-1, DEFAULT_CONFIG:log.retention.bytes=-1}
+  retention.ms=60566400000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.ms=60566400000}
+  segment.bytes=67108864 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:segment.bytes=67108864, DEFAULT_CONFIG:log.segment.bytes=1073741824}
+Dynamic configs for topic _confluent-controlcenter-7-7-1-1-group-aggregate-store-THREE_HOURS-repartition are:
+  cleanup.policy=compact sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=compact, DEFAULT_CONFIG:log.cleanup.policy=delete}
+  delete.retention.ms=60566400000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:delete.retention.ms=60566400000, DEFAULT_CONFIG:log.cleaner.delete.retention.ms=86400000}
+  message.timestamp.difference.max.ms=9223372036854775807 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.difference.max.ms=9223372036854775807, DEFAULT_CONFIG:log.message.timestamp.difference.max.ms=9223372036854775807}
+  message.timestamp.type=CreateTime sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.type=CreateTime, DEFAULT_CONFIG:log.message.timestamp.type=CreateTime}
+  min.insync.replicas=1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:min.insync.replicas=1, DEFAULT_CONFIG:min.insync.replicas=1}
+  retention.bytes=-1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.bytes=-1, DEFAULT_CONFIG:log.retention.bytes=-1}
+  retention.ms=60566400000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.ms=60566400000}
+  segment.bytes=67108864 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:segment.bytes=67108864, DEFAULT_CONFIG:log.segment.bytes=1073741824}
+Dynamic configs for topic _confluent-controlcenter-7-7-1-1-group-stream-extension-rekey are:
+  cleanup.policy=delete sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=delete, DEFAULT_CONFIG:log.cleanup.policy=delete}
+  message.timestamp.type=LogAppendTime sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.type=LogAppendTime, DEFAULT_CONFIG:log.message.timestamp.type=CreateTime}
+  min.insync.replicas=1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:min.insync.replicas=1, DEFAULT_CONFIG:min.insync.replicas=1}
+  retention.bytes=-1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.bytes=-1, DEFAULT_CONFIG:log.retention.bytes=-1}
+  retention.ms=604800000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.ms=604800000}
+Dynamic configs for topic _confluent-controlcenter-7-7-1-1-metrics-trigger-measurement-rekey are:
+  cleanup.policy=delete sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=delete, DEFAULT_CONFIG:log.cleanup.policy=delete}
+  message.timestamp.type=LogAppendTime sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.type=LogAppendTime, DEFAULT_CONFIG:log.message.timestamp.type=CreateTime}
+  min.insync.replicas=1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:min.insync.replicas=1, DEFAULT_CONFIG:min.insync.replicas=1}
+  retention.bytes=-1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.bytes=-1, DEFAULT_CONFIG:log.retention.bytes=-1}
+  retention.ms=604800000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.ms=604800000}
+Dynamic configs for topic _confluent-controlcenter-7-7-1-1-monitoring-aggregate-rekey-store-changelog are:
+  cleanup.policy=compact sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=compact, DEFAULT_CONFIG:log.cleanup.policy=delete}
+  delete.retention.ms=691200000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:delete.retention.ms=691200000, DEFAULT_CONFIG:log.cleaner.delete.retention.ms=86400000}
+  message.timestamp.difference.max.ms=9223372036854775807 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.difference.max.ms=9223372036854775807, DEFAULT_CONFIG:log.message.timestamp.difference.max.ms=9223372036854775807}
+  message.timestamp.type=CreateTime sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.type=CreateTime, DEFAULT_CONFIG:log.message.timestamp.type=CreateTime}
+  min.insync.replicas=1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:min.insync.replicas=1, DEFAULT_CONFIG:min.insync.replicas=1}
+  retention.bytes=-1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.bytes=-1, DEFAULT_CONFIG:log.retention.bytes=-1}
+  retention.ms=691200000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.ms=691200000}
+  segment.bytes=67108864 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:segment.bytes=67108864, DEFAULT_CONFIG:log.segment.bytes=1073741824}
+Dynamic configs for topic _confluent-controlcenter-7-7-1-1-monitoring-aggregate-rekey-store-repartition are:
+  cleanup.policy=compact sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=compact, DEFAULT_CONFIG:log.cleanup.policy=delete}
+  delete.retention.ms=691200000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:delete.retention.ms=691200000, DEFAULT_CONFIG:log.cleaner.delete.retention.ms=86400000}
+  message.timestamp.difference.max.ms=9223372036854775807 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.difference.max.ms=9223372036854775807, DEFAULT_CONFIG:log.message.timestamp.difference.max.ms=9223372036854775807}
+  message.timestamp.type=CreateTime sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.type=CreateTime, DEFAULT_CONFIG:log.message.timestamp.type=CreateTime}
+  min.insync.replicas=1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:min.insync.replicas=1, DEFAULT_CONFIG:min.insync.replicas=1}
+  retention.bytes=-1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.bytes=-1, DEFAULT_CONFIG:log.retention.bytes=-1}
+  retention.ms=691200000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.ms=691200000}
+  segment.bytes=67108864 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:segment.bytes=67108864, DEFAULT_CONFIG:log.segment.bytes=1073741824}
+Dynamic configs for topic _confluent-controlcenter-7-7-1-1-monitoring-message-rekey-store are:
+  cleanup.policy=delete sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=delete, DEFAULT_CONFIG:log.cleanup.policy=delete}
+  message.timestamp.type=LogAppendTime sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.type=LogAppendTime, DEFAULT_CONFIG:log.message.timestamp.type=CreateTime}
+  min.insync.replicas=1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:min.insync.replicas=1, DEFAULT_CONFIG:min.insync.replicas=1}
+  retention.bytes=-1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.bytes=-1, DEFAULT_CONFIG:log.retention.bytes=-1}
+  retention.ms=604800000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.ms=604800000}
+Dynamic configs for topic _confluent-controlcenter-7-7-1-1-monitoring-trigger-event-rekey are:
+  cleanup.policy=delete sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=delete, DEFAULT_CONFIG:log.cleanup.policy=delete}
+  message.timestamp.type=LogAppendTime sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.type=LogAppendTime, DEFAULT_CONFIG:log.message.timestamp.type=CreateTime}
+  min.insync.replicas=1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:min.insync.replicas=1, DEFAULT_CONFIG:min.insync.replicas=1}
+  retention.bytes=-1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.bytes=-1, DEFAULT_CONFIG:log.retention.bytes=-1}
+  retention.ms=604800000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.ms=604800000}
+Dynamic configs for topic _confluent-ksql-default__command_topic are:
+  cleanup.policy=delete sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=delete, DEFAULT_CONFIG:log.cleanup.policy=delete}
+  min.insync.replicas=1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:min.insync.replicas=1, DEFAULT_CONFIG:min.insync.replicas=1}
+  retention.ms=-1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.ms=-1}
+  unclean.leader.election.enable=false sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:unclean.leader.election.enable=false, DEFAULT_CONFIG:unclean.leader.election.enable=false}
+Dynamic configs for topic _confluent-ksql-default_query_CSAS_SPEEDREPORTJOIN_21-Join-right-repartition are:
+  cleanup.policy=delete sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=delete, DEFAULT_CONFIG:log.cleanup.policy=delete}
+  message.timestamp.type=CreateTime sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.type=CreateTime, DEFAULT_CONFIG:log.message.timestamp.type=CreateTime}
+  retention.ms=-1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.ms=-1}
+  segment.bytes=52428800 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:segment.bytes=52428800, DEFAULT_CONFIG:log.segment.bytes=1073741824}
+Dynamic configs for topic _confluent-ksql-default_query_CSAS_SPEEDREPORTJOIN_21-KSTREAM-JOINOTHER-0000000017-store-changelog are:
+  cleanup.policy=delete sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=delete, DEFAULT_CONFIG:log.cleanup.policy=delete}
+  message.timestamp.type=CreateTime sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.type=CreateTime, DEFAULT_CONFIG:log.message.timestamp.type=CreateTime}
+  retention.ms=172800000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.ms=172800000}
+Dynamic configs for topic _confluent-ksql-default_query_CSAS_SPEEDREPORTJOIN_21-KSTREAM-JOINOTHER-0000000029-store-changelog are:
+  cleanup.policy=delete sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=delete, DEFAULT_CONFIG:log.cleanup.policy=delete}
+  message.timestamp.type=CreateTime sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.type=CreateTime, DEFAULT_CONFIG:log.message.timestamp.type=CreateTime}
+  retention.ms=172800000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.ms=172800000}
+Dynamic configs for topic _confluent-ksql-default_query_CSAS_SPEEDREPORTJOIN_21-KSTREAM-JOINTHIS-0000000016-store-changelog are:
+  cleanup.policy=delete sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=delete, DEFAULT_CONFIG:log.cleanup.policy=delete}
+  message.timestamp.type=CreateTime sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.type=CreateTime, DEFAULT_CONFIG:log.message.timestamp.type=CreateTime}
+  retention.ms=172800000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.ms=172800000}
+Dynamic configs for topic _confluent-ksql-default_query_CSAS_SPEEDREPORTJOIN_21-KSTREAM-JOINTHIS-0000000028-store-changelog are:
+  cleanup.policy=delete sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=delete, DEFAULT_CONFIG:log.cleanup.policy=delete}
+  message.timestamp.type=CreateTime sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.type=CreateTime, DEFAULT_CONFIG:log.message.timestamp.type=CreateTime}
+  retention.ms=172800000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.ms=172800000}
+Dynamic configs for topic _confluent-ksql-default_query_CSAS_SPEEDREPORTJOIN_21-L_Join-left-repartition are:
+  cleanup.policy=delete sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=delete, DEFAULT_CONFIG:log.cleanup.policy=delete}
+  message.timestamp.type=CreateTime sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.type=CreateTime, DEFAULT_CONFIG:log.message.timestamp.type=CreateTime}
+  retention.ms=-1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.ms=-1}
+  segment.bytes=52428800 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:segment.bytes=52428800, DEFAULT_CONFIG:log.segment.bytes=1073741824}
+Dynamic configs for topic _confluent-ksql-default_query_CSAS_SPEEDREPORTJOIN_21-L_Join-right-repartition are:
+  cleanup.policy=delete sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=delete, DEFAULT_CONFIG:log.cleanup.policy=delete}
+  message.timestamp.type=CreateTime sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.type=CreateTime, DEFAULT_CONFIG:log.message.timestamp.type=CreateTime}
+  retention.ms=-1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.ms=-1}
+  segment.bytes=52428800 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:segment.bytes=52428800, DEFAULT_CONFIG:log.segment.bytes=1073741824}
+Dynamic configs for topic _confluent-metrics are:
+  cleanup.policy=delete sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=delete, DEFAULT_CONFIG:log.cleanup.policy=delete}
+  max.message.bytes=10485760 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:max.message.bytes=10485760, DEFAULT_CONFIG:message.max.bytes=1048588}
+  message.timestamp.difference.max.ms=9223372036854775807 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.difference.max.ms=9223372036854775807, DEFAULT_CONFIG:log.message.timestamp.difference.max.ms=9223372036854775807}
+  message.timestamp.type=CreateTime sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.type=CreateTime, DEFAULT_CONFIG:log.message.timestamp.type=CreateTime}
+  min.insync.replicas=1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:min.insync.replicas=1, DEFAULT_CONFIG:min.insync.replicas=1}
+  retention.bytes=-1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.bytes=-1, DEFAULT_CONFIG:log.retention.bytes=-1}
+  retention.ms=259200000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.ms=259200000}
+Dynamic configs for topic _confluent-monitoring are:
+  cleanup.policy=delete sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=delete, DEFAULT_CONFIG:log.cleanup.policy=delete}
+  message.timestamp.difference.max.ms=9223372036854775807 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.difference.max.ms=9223372036854775807, DEFAULT_CONFIG:log.message.timestamp.difference.max.ms=9223372036854775807}
+  message.timestamp.type=LogAppendTime sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:message.timestamp.type=LogAppendTime, DEFAULT_CONFIG:log.message.timestamp.type=CreateTime}
+  min.insync.replicas=1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:min.insync.replicas=1, DEFAULT_CONFIG:min.insync.replicas=1}
+  retention.bytes=-1 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.bytes=-1, DEFAULT_CONFIG:log.retention.bytes=-1}
+  retention.ms=259200000 sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:retention.ms=259200000}
+Dynamic configs for topic _schemas are:
+  cleanup.policy=compact sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=compact, DEFAULT_CONFIG:log.cleanup.policy=delete}
+Dynamic configs for topic default_ksql_processing_log are:
+Dynamic configs for topic docker-connect-configs are:
+  cleanup.policy=compact sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=compact, DEFAULT_CONFIG:log.cleanup.policy=delete}
+Dynamic configs for topic docker-connect-offsets are:
+  cleanup.policy=compact sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=compact, DEFAULT_CONFIG:log.cleanup.policy=delete}
+Dynamic configs for topic docker-connect-status are:
+  cleanup.policy=compact sensitive=false synonyms={DYNAMIC_TOPIC_CONFIG:cleanup.policy=compact, DEFAULT_CONFIG:log.cleanup.policy=delete}

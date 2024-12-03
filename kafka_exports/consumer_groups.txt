@@ -1,0 +1,13 @@
+_confluent-controlcenter-7-7-1-lastProduceTimeConsumer
+_confluent-controlcenter-7-7-1-1-command
+iot-report-consumer-group
+state-detector-consumer-group
+_confluent-controlcenter-7-7-1-1
+_confluent-ksql-default_query_CSAS_IOTREPORTDATAVALID_3
+_confluent-ksql-default_query_CSAS_SPEEDBELOWOREQUALMAX_29
+_confluent-ksql-default_query_CSAS_SPEEDABOVEMAX_31
+max-speed-consumer-group
+speed-above-consumer-group
+_confluent-ksql-default_query_CSAS_LOCATIONTOPIC_17
+_confluent-ksql-default_query_CSAS_SPEEDREPORTJOIN_21
+speed-below-equal-consumer-group
